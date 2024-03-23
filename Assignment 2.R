@@ -20,7 +20,7 @@ fa.parallel(data, fm = "ml")
 factor <- fa(data,  # data
                  nfactors = 2, # number of factors 
                  fm = "pa",  # method = 
-                 rotate = "Promax") # rotation 
+                 rotate = "varimax") # rotation 
 
 print(factor, cut = .33, sort = TRUE, digits = 3)
 
